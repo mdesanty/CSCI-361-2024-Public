@@ -33,7 +33,7 @@ public class Main {
                 public int compare(Car carA, Car carB) {
                     int comparison = carA.getMake().compareTo(carB.getMake());
 
-                    // Sort by name ascending.
+                    // Sort by name descending.
                     if(comparison < 0)
                         // carA is less than carB.
                         // but since we want descending order we return 1 so that carA is placed before carB.
@@ -56,7 +56,7 @@ public class Main {
             (Car carA, Car carB) -> {
                 int comparison = carA.getMake().compareTo(carB.getMake());
 
-                // Sort by name descending.
+                // Sort by name ascending.
                 if (comparison < 0)
                     // carA is less than personB.
                     return -1;

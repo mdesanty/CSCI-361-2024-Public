@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        List<String> strings = new ArrayList<String>(Arrays.asList("Cat", "Mouse", "Dog", "Lizard", "Snake"));
+        List<String> strings = new ArrayList<>(Arrays.asList("Cat", "Mouse", "Dog", "Lizard", "Snake"));
 
         System.out.println("Printing with for loop...");
         for (int i = 0; i < strings.size(); i++) {
@@ -15,8 +15,8 @@ public class Main {
         System.out.println("");
 
         System.out.println("Printing with for each loop...");
-        for (String string : strings) {
-            System.out.println(string);
+        for (String item : strings) {
+            System.out.println(item);
         }
         System.out.println("");
     }
