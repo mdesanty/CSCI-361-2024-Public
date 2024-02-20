@@ -7,4 +7,8 @@ public class MergeSort {
     public static List<Person> sort(List<Person> people) {
 
     }
+
+    private static List<Person> merge(List<Person> left, List<Person> right) {
+
+    }
 }
