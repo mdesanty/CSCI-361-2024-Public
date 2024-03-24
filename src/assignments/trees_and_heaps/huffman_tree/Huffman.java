@@ -33,7 +33,7 @@ public class Huffman {
         // This should sort the nodes and populate your Huffman tree into the root Tree
         // object.
         // This method will be recursive.
-        // The first terminating condition is that the side of the List is 1. If that's
+        // The first terminating condition is that the size of the List is 1. If that's
         // the case you can simply return the one node.
         // If not
         // sort the list of nodes and create a new tree node with the first two nodes in
