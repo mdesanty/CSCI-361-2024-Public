@@ -20,7 +20,7 @@ public class StackLL<T extends Comparable<T>> implements IStack<T> {
     }
 
     @Override
-    public T peek() {
+    public T top() {
         return items.peek(); // peek is the equivalent to getHead
     }
 

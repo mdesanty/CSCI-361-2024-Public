@@ -5,7 +5,7 @@ public interface IStack<T> {
 
     public T pop();
 
-    public T peek();
+    public T top();
 
     public int size();
 
